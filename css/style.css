@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:sans-serif;
+}
+.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 0 -15px;
+}
+.flex-item-1 {
+    width: 8.3%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-2 {
+    width: 16.6%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-3 {
+    width: 25%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-4 {
+    width: 33.3%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-5 {
+    width: 41.6%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-6 {
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-7 {
+    width: 58.3%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-8 {
+    width: 66.6%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-9 {
+    width: 75%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-10 {
+    width: 83.3%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-11 {
+    width: 91.6%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex-item-12 {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 0 15px 0 15px;
+}
+.flex{
+	display:flex;
+}
+.align{
+	align-items:center;
+}
+/* header section */
+.information{
+	padding:20px 0;
+	margin-top:20px;
+}
+.banner{
+	background: url(../images/mentor.jpeg);
+    height: 81vh;
+    background-position: center;
+    background-size: cover;
+    width: auto;;
+}
+.details{
+	padding:24px 0;
+}
+.details-head h1{
+	font-size: 34px;
+	line-height:1.3;
+}
+.details-input{
+	margin-top:10px;
+	line-height:1.5;
+}
+.details-input p{
+	color: #000000b8;
+    font-size: 16px;
+}
+.icon-input{
+	padding-left: 16px;
+	position:relative;
+}
+.icon-tag{
+	margin-top:20px;
+	width:50%;
+	padding:20px;
+}
+.icon-input h2{
+	margin-bottom:10px;
+	font-size: 40px;
+}
+.icon{
+	position: relative;
+    color: #ffa50096;
+    font-size: 44px;
+    top: 10px;
+}
+.icon-input span{
+	color:black;
+	font-weight:600;
+}
+.icon-input p{
+	color: #8080809c;
+}
